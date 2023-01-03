@@ -33,9 +33,17 @@
 // division(49,7);
 
 //EXO5
-function modulo(x,y) {
-    let reste = x%y;
-    console.log(reste);
+// function modulo(x,y) {
+//     let reste = x%y;
+//     console.log(reste);
+    
+// }
+// modulo(12,5);
+
+//EXO6
+function carre(nombre) {
+    let racine = nombre * nombre;
+    console.log(racine);
     
 }
-modulo(12,5);
+carre(6)
