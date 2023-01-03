@@ -57,7 +57,27 @@
 // exposant(5,2)
 
 //EXO8
-function capitalize(str) {
-    return str.charAt(0).toUpperCase()+ str.slice(1).toLowerCase();
-}
-console.log(capitalize("test"));
+// function capitalize(str) {
+//     return str.charAt(0).toUpperCase()+ str.slice(1).toLowerCase();
+// }
+// console.log(capitalize("test"));
+
+//Exo9
+function calcul(nbr1, operator, nbr2) {
+    switch (operator) {
+      case "+":
+        return nbr1 + nbr2;
+      case "-":
+        return nbr1 - nbr2;
+      case "*":
+        return nbr1 * nbr2;
+      case "/":
+        return nbr1 / nbr2;
+      default:
+        break;
+    }
+  }
+  console.log(calcul(2 ,"+", 2));
+  console.log(calcul(6 ,"-", 2));
+  console.log(calcul(2 ,"*", 2));
+  console.log(calcul(8 ,"/", 2));
