@@ -25,9 +25,17 @@
 // multiplication(7,7);
 
 //EXO4
-function division(x,y) {
-    let resultat = x/y;
-    console.log(resultat);
+// function division(x,y) {
+//     let resultat = x/y;
+//     console.log(resultat);
+    
+// }
+// division(49,7);
+
+//EXO5
+function modulo(x,y) {
+    let reste = x%y;
+    console.log(reste);
     
 }
-division(49,7);
+modulo(12,5);
