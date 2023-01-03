@@ -49,9 +49,15 @@
 // carre(6)
 
 //EXO7
-function exposant(x, y) {
-    let resultat = x ** y;
-    console.log(resultat);
+// function exposant(x, y) {
+//     let resultat = x ** y;
+//     console.log(resultat);
     
+// }
+// exposant(5,2)
+
+//EXO8
+function capitalize(str) {
+    return str.charAt(0).toUpperCase()+ str.slice(1).toLowerCase();
 }
-exposant(5,2)
+console.log(capitalize("test"));
