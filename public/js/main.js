@@ -41,9 +41,17 @@
 // modulo(12,5);
 
 //EXO6
-function carre(nombre) {
-    let racine = nombre * nombre;
-    console.log(racine);
+// function carre(nombre) {
+//     let racine = nombre * nombre;
+//     console.log(racine);
+    
+// }
+// carre(6)
+
+//EXO7
+function exposant(x, y) {
+    let resultat = x ** y;
+    console.log(resultat);
     
 }
-carre(6)
+exposant(5,2)
