@@ -17,9 +17,17 @@
 // soustraction(5,20);
 
 //EXO3
-function multiplication(x,y) {
-    let resultat = x * y;
+// function multiplication(x,y) {
+//     let resultat = x * y;
+//     console.log(resultat);
+    
+// }
+// multiplication(7,7);
+
+//EXO4
+function division(x,y) {
+    let resultat = x/y;
     console.log(resultat);
     
 }
-multiplication(7,7);
+division(49,7);
