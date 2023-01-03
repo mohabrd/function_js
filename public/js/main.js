@@ -8,10 +8,18 @@
 
 
 //EXO2
-function soustraction(x,y) {
-    let resultat = y-x;
+// function soustraction(x,y) {
+//     let resultat = y-x;
+//     console.log(resultat);
+    
+// }
+
+// soustraction(5,20);
+
+//EXO3
+function multiplication(x,y) {
+    let resultat = x * y;
     console.log(resultat);
     
 }
-
-soustraction(5,20);
+multiplication(7,7);
